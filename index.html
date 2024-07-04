@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>PBHub Layout</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="PBHUB Layout">
+    <meta name="robots" content="noindex">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+    <header>
+        <!-- PROGRESS BAR  -->
+
+        <div class="progress-container position-fixed ms-5">
+            <div class="position-relative pre-progress">
+                <div class="progress-bar" id="myBar">
+                </div>
+                <div onclick="scrollThere(0)" class="circler rounded-circle p-2 position-absolute colored-circle">
+                </div>
+                <div onclick="scrollThere(4)" class="circler rounded-circle p-2 position-absolute"></div>
+                <div onclick="scrollThere(2)" class="circler rounded-circle p-2 position-absolute"></div>
+                <div onclick="scrollThere(1.5)" class="circler rounded-circle p-2 position-absolute"></div>
+                <div onclick="scrollThere(1)" class="circler rounded-circle p-2 position-absolute"></div>
+            </div>
+        </div>
+
+        <!-- PROGRESS END  -->
+        <nav class="d-flex justify-content-center position-relative">
+            <div class="custom_nav py-3 mt-3 px-0 m-auto d-flex justify-content-between align-items-center"
+                style="width: 86%;">
+                <div class="logo pt-2 position-fixed">
+                    <svg width="47" viewBox="0 0 94 88" fill="#00D7D2" xmlns="http://www.w3.org/2000/svg" height="47"
+                        width="50px">
+                        <path
+                            d="M0 0V87.6875H93.3639V0H0ZM86.7315 81.4583H6.63241V6.22917H86.7315V81.4583ZM39.8149 71.2042H50.7634V55.545H44.131V64.975H39.8149C34.5293 64.975 30.2234 60.9308 30.2234 55.9667C30.2234 54.2513 30.7336 52.5933 31.7029 51.1558C32.5294 49.9292 33.6722 48.8942 35.0089 48.1658C36.4578 47.38 38.121 46.9583 39.8046 46.9583H55.2735C58.0489 46.9583 60.7835 46.2875 63.2017 45.0225C65.5282 43.7958 67.5281 42.0229 68.9668 39.905C70.63 37.4612 71.4974 34.6342 71.4974 31.7208C71.4974 23.3162 64.2221 16.4833 55.2735 16.4833H44.3249V31.7208H50.9573V22.7125H55.2735C60.559 22.7125 64.8649 26.7567 64.8649 31.7208C64.8649 33.4458 64.3446 35.1133 63.365 36.5508C62.5079 37.8062 61.3345 38.8508 59.9468 39.5792C58.5284 40.3267 56.9061 40.7196 55.2633 40.7196H39.7944C36.9374 40.7196 34.1314 41.4287 31.6723 42.7608C29.4173 43.9875 27.4786 45.7317 26.0807 47.8017C24.4379 50.2358 23.5706 53.0533 23.5706 55.9475C23.5706 64.3521 30.8458 71.185 39.7944 71.185L39.8149 71.2042Z"
+                            fill="#00D7D2"></path>
+                    </svg>
+                </div>
+                <div class="silos position-absolute pt-0 d-none d-lg-flex">
+                    <a aria-label="link" class="text-decoration-none top_link_item" href="#!">Meet The Team</a>
+                    <a aria-label="link" class="text-decoration-none top_link_item" href="#!">Services</a>
+                    <a aria-label="link" class="text-decoration-none top_link_item" href="#!">Contact US</a>
+                    <a aria-label="link" class="text-decoration-none top_link_item" href="#!">About US</a>
+                    <a aria-label="link" class="text-decoration-none top_link_item" href="#!">Reviews</a>
+
+                </div>
+                <div class="right-bar-nav d-flex justify-content-between pt-2 position-fixed">
+                    <div class="px-2"> <svg id="in-svg" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                            viewBox="0 0 38 37" fill="#000">
+                            <path
+                                d="M8.00427 4.7009C8.00374 5.7556 7.58426 6.76689 6.8381 7.5123C6.09195 8.25771 5.08024 8.67618 4.02554 8.67566C2.97084 8.67513 1.95955 8.25565 1.21414 7.50949C0.468726 6.76333 0.0502544 5.75162 0.0507817 4.69692C0.0513091 3.64223 0.470792 2.63093 1.21695 1.88552C1.96311 1.14011 2.97482 0.721641 4.02951 0.722168C5.08421 0.722696 6.0955 1.14218 6.84091 1.88834C7.58633 2.63449 8.0048 3.6462 8.00427 4.7009ZM8.12357 11.6204H0.170084V36.5149H8.12357V11.6204ZM20.6901 11.6204H12.7764V36.5149H20.6105V23.4513C20.6105 16.1738 30.0951 15.4978 30.0951 23.4513V36.5149H37.9492V20.7471C37.9492 8.47881 23.9112 8.93613 20.6105 14.9609L20.6901 11.6204Z"
+                                fill=""></path>
+                        </svg>
+                    </div>
+                    <div class="">
+                        <div class="toggle" id="leader">
+                            <span class="line-toggle"></span>
+
+                            <span class="line-toggle"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div id="lead-bar" class="position-fixed  top-0 start-0 overflow-hidden lead-bar">
+            <div class="side-bar border align-items-center justify-content-center bg-transparent d-flex">1
+                <div class="container align-items-start justify-content-center row m-auto col-md-7">
+                    <div class="col-4">
+                        <div class="border-end border-dark">
+                            <p class="fw-semibold fs-14px">Menu</p>
+                            <ul class="list-unstyled">
+                                <!-- <li class="inner-silo text-dark">Home</li> -->
+                                <li class="inner-silo"><a aria-label="link" class="text-decoration-none" href="#!">Meet
+                                        The Team</a></li>
+                                <li class="inner-silo"><a aria-label="link" class="text-decoration-none"
+                                        href="#!">Contact US</a></li>
+                                <li class="inner-silo"><a aria-label="link" class="text-decoration-none"
+                                        href="#!">Focus</a></li>
+                                <li class="inner-silo"><a aria-label="link" class="text-decoration-none" href="#!">About
+                                        US</a></li>
+                                <li class="inner-silo"><a aria-label="link" class="text-decoration-none"
+                                        href="#!">Reviews</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="side-mid px-5">
+                            <div class="mb-5">
+                                <p class="fw-semibold fs-14px">Address</p>
+                                <p class="greyish" style="font-size: 1rem;line-height: normal;">Green Park House <br>
+                                    Digital Gravity Infra Partners<br>
+                                    15 Stratton Street, Mayfair<br>
+                                    London, W1J 8LQ</p>
+                            </div>
+                            <div class="">
+                                <p class="fs-14px">Please direct enquiries to:</p>
+                                <div class="row m-auto">
+                                    <div class="col-5 px-0 greyish">General:</div>
+                                    <div class="col-7 px-0"><a aria-label="link"
+                                            class=" text-decoration-none inner-mails" href="#!">
+                                            hello@digitalgravity.com</a></div>
+                                    <div class="col-5 px-0 greyish">Careers:</div>
+                                    <div class="col-7 px-0"><a aria-label="link"
+                                            class=" text-decoration-none inner-mails" href="#!">
+                                            careers@digitalgravity.com</a></div>
+                                    <div class="col-5 px-0 greyish">Media:</div>
+                                    <div class="col-7 px-0"><a aria-label="link"
+                                            class=" text-decoration-none inner-mails" href="#!">
+                                            media@digitalgravity.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">1</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- <div class="heh1 position-relative  " id="a1">
+            <div class="position-fixed first-head w-100" id="first-head-a">
+                <h1 class="text-center  z-3">Building sustainable connectivity.</h1>
+            </div>
+            <div class="position-fixed first-head w-100" id="first-head-b">
+                <h1 class="text-center  z-3">Another stuff</h1>
+            </div>
+            <div class="position-sticky text-center z-1 top-50 start-50">
+                <img class="z-indexor position-relative"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFx4bbBp7XIzpYf3QxbTwfI6K0I-y-OuxcKQ&s"
+                    alt="">
+            </div>
+        </div>
+        <dotlottie-player classname="lottie_element Hero_lottie_element__V4lzc" src="/Lottie/Hero.lottie" autoplay="autoplay" subframe="true" speed="0.5" loop=""></dotlottie-player>
+        <div class="heh" id="a2">2</div>
+        <div class="heh" id="a3">3</div>
+        <div class="heh" id="a4">4</div>
+        <div class="heh" id="a5">5</div> -->
+
+
+
+        <section class="mt-5">
+            <div class="container text-center">
+                <h1 class="first-head pb-4">Building sustainable connectivity.</h1>
+                <img src="a.png" class="img-fluid mt-md-5 main-bg-img" alt="">
+            </div>
+        </section>
+        <section class="mt-5">
+            <div class="container text-center ">
+                <p class="fs-3 mb-2 greyish">About Us</p>
+                <p class="fs-3 mb-2 greyish">Our mission is to invest in a more sustainable and inclusive digital future
+                </p>
+                <h2 class="display-5 fw-semibold mb-4">A Pure Play Digital Infrastructure Specialist</h2>
+                <p class="fs-5 fw-semibold mb-4">Digital Gravity Infrastructure Partners will advise on the investment
+                    in assets and companies that
+                    provide the <br> infrastructure of data and the internet, supporting the digital transformation of
+                    society.</p>
+                <p class="fs-5 fw-semibold mb-4">We are specialists in digital infrastructure, focused on adding value
+                    where we aim to build leading
+                    neutral and<br> scalable businesses to drive positive change.</p>
+                <p class="fs-5 fw-semibold mb-4">Our strategy seeks investments in and builds capabilities across the
+                    global connectivity value
+                    chain,<br>empowering underserved communities, and shaping a connected, sustainable future.</p>
+                <div>
+                    <div class="btn rounded-pill py-1 px-2  py-md-3 px-md-4 mx-2 fw-semibold btn-first my-1 my-md-0">
+                        Meet The Team</div>
+                    <div class="btn rounded-pill py-1 px-2  py-md-3 px-md-4 mx-2 fw-semibold btn-first my-1 my-md-0">Or
+                        Scroll down for our
+                        Strategy</div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
+            <div class="container-fluid align-content-center px-md-5 height-v">
+                <div class="bg-white rounded-5 m-auto p-md-5 col-12 col-md-10 shadow-sm">
+                    <div class="row w-100 m-auto">
+                        <div class="col-12 col-lg-6 align-content-center">
+                            <div>
+                                <p class="lh-1 head-3">Web design & <br>development</p>
+                                <div class="d-flex flex-wrap mt-4 pt-1">
+                                    <div class="btn rounded-pill py-1  px-2 m-2 btn-second">Creative Webdesign</div>
+                                    <div class="btn rounded-pill py-1  px-2 m-2 btn-second">Web development</div>
+                                    <div class="btn rounded-pill py-1  px-2 m-2 btn-second">Copywriting</div>
+                                    <div class="btn rounded-pill py-1  px-2 m-2 btn-second">E-Commerce</div>
+                                    <div class="btn rounded-pill py-1  px-2 m-2 btn-second">WordPress</div>
+                                </div>
+                                <p class="mt-3">Crafting digital experiences where beauty meets ROI, turning heads and
+                                    unlocking
+                                    revenue potential with every click.</p>
+                                <div>
+                                    <button
+                                        class="card-big-btn d-flex align-items-center py-2 px-3 rounded-pill border-1 bg-transparent">
+                                        <p class="mb-0 me-3">Find out more</p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.1 15.17" width="17px"
+                                            height="17px" class="Button_buttonArrow__0W9XI">
+                                            <path
+                                                d="m17.1,7.58s-.01-.04-.01-.06c.01-.22-.06-.45-.24-.61L9.23.19c-.31-.27-.78-.24-1.06.07-.27.31-.24.78.07,1.06l6.26,5.52H.75c-.41,0-.75.34-.75.75s.34.75.75.75h13.74l-6.26,5.52c-.31.27-.34.75-.07,1.06.15.17.35.25.56.25.18,0,.35-.06.5-.19l7.62-6.72c.18-.16.25-.39.24-.61,0-.02.01-.04.01-.06Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="overflow-hidden video-div mt-3  mt-md-0 text-end">
+                                <video src="videos/homepage.mp4" height="630" width="630" autoplay loop muted></video>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
+            <div class="container height-v align-content-center" style=" ">
+
+                <div class="row">
+                    <div class="col-12 text-center yinyan-heading">
+                        <p>Digital Gravity’s investment stratergy</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img class="yinyan" width="550" height="550" src="images/yinyan.png" alt="">
+                    </div>
+                    <div class="col-md-6 align-content-center">
+                        <div class="d-flex align-items-center">
+                            <p class="mb-0 fw-semibold"> 01 </p>
+                            <div class="mx-2" style="border-top: 2px solid black;width:30px; height:1px;"></div>
+                            <p class="mb-0 fw-semibold">RETURNS</p>
+
+                            </p>
+                        </div>
+                        <div>
+                            <p class="h1 mt-5">
+                                Targeting higher <br>
+                                infrastructure returns
+                            </p>
+                            <p class="fs-6 fw-semibold">Digital Gravity is a digital infrastructure specialist investing
+                                in growth,<br>
+                                mid-cap control opportunities by identifying sub-layers of macro<br>
+                                tailwinds, leveraging its differentiated partner ecosystem <br>
+                                and constructing portfolios that accelerate convergence value</p>
+                        </div>
+                        <div class="d-flex mt-5">
+                            <div class="mx-2" style="border-top: 3px solid #6E6E73;width:50px; height:1px;"></div>
+                            <div class="mx-2" style="border-top: 3px solid #6E6E73; width:50px; height:1px;"></div>
+                            <div class="mx-2" style="border-top: 3px solid #6E6E73; width:50px; height:1px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5" id="blogs-section">
+            <div class="bg-black">
+                <!-- <div class="px-3 d-flex flex-wrap h-100 accordion justify-content-center align-items-center"> -->
+                <div class="px-md-5 mx-md-5">
+                    <div
+                        class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-3 justify-content-center p-1 p-md-5">
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="col my-1 my-md-3">
+                            <div class="overflow-hidden rounded-3">
+                                <img src="images/cards/6547edbce1bf90f3a35b06ef_itv.jpg" class="img-fluid list-img"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="">
+            <div style="background: #0A062B;" class="height-v text-center align-content-center">
+                <p class="text-white filled-text mt-3 mt-md-0">
+                    "Building<span class="quote_icon" style="width: auto;"><svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" fill="#00D7D2" width="30" height="30" class="svg-bulu">
+                            <path
+                                d="M11.644 1.59a.75.75 0 01.712 0l9.75 5.25a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.712 0l-9.75-5.25a.75.75 0 010-1.32l9.75-5.25z">
+                            </path>
+                            <path
+                                d="M3.265 10.602l7.668 4.129a2.25 2.25 0 002.134 0l7.668-4.13 1.37.739a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.71 0l-9.75-5.25a.75.75 0 010-1.32l1.37-.738z">
+                            </path>
+                            <path
+                                d="M10.933 19.231l-7.668-4.13-1.37.739a.75.75 0 000 1.32l9.75 5.25c.221.12.489.12.71 0l9.75-5.25a.75.75 0 000-1.32l-1.37-.738-7.668 4.13a2.25 2.25 0 01-2.134-.001z">
+                            </path>
+                        </svg></span> and upgrading<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        width="30" height="30" class="svg-bulu" fill="#00D7D2">
+                        <path fill-rule="evenodd"
+                            d="M12.963 2.286a.75.75 0 00-1.071-.136 9.742 9.742 0 00-3.539 6.177A7.547 7.547 0 016.648 6.61a.75.75 0 00-1.152-.082A9 9 0 1015.68 4.534a7.46 7.46 0 01-2.717-2.248zM15.75 14.25a3.75 3.75 0 11-7.313-1.172c.628.465 1.35.81 2.133 1a5.99 5.99 0 011.925-3.545 3.75 3.75 0 013.255 3.717z"
+                            clip-rule="evenodd"></path>
+                    </svg> <br>
+                    the digital infrastructure required to <br>
+                    improve<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"
+                        class="svg-bulu" fill="#00D7D2">
+                        <path fill-rule="evenodd"
+                            d="M15.22 6.268a.75.75 0 01.968-.432l5.942 2.28a.75.75 0 01.431.97l-2.28 5.941a.75.75 0 11-1.4-.537l1.63-4.251-1.086.483a11.2 11.2 0 00-5.45 5.174.75.75 0 01-1.199.19L9 12.31l-6.22 6.22a.75.75 0 11-1.06-1.06l6.75-6.75a.75.75 0 011.06 0l3.606 3.605a12.694 12.694 0 015.68-4.973l1.086-.484-4.251-1.631a.75.75 0 01-.432-.97z"
+                            clip-rule="evenodd"></path>
+                    </svg> global <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"
+                        class="svg-bulu" fill="#00D7D2">
+                        <path
+                            d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z">
+                        </path>
+                    </svg>economic and <br>
+                    social productivity<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30"
+                        height="30" class="svg-bulu" fill="#00D7D2">
+                        <path fill-rule="evenodd"
+                            d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"
+                            clip-rule="evenodd"></path>
+                        <path
+                            d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z">
+                        </path>
+                    </svg> will be one of the <br>
+                    greatest investment opportunities that <br>
+                    arises over the coming generation<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        width="30" height="30" class="svg-bulu" fill="#00D7D2">
+                        <path fill-rule="evenodd"
+                            d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z"
+                            clip-rule="evenodd"></path>
+                        <path
+                            d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z">
+                        </path>
+                    </svg>"
+                </p>
+                <p class="text-secondary sv-text-second mt-4">- Thor Johnsen, Managing Partner</p>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <section>
+            <div class="text-center">
+                <p class="head-2 align-content-center">Our strategy</p>
+            </div>
+        </section> -->
+        <!-- <section>
+            <div class="container-fluid text-center col-9 px-4">
+                <div class="row justify-content-between m-auto w-100">
+                    <div class="col-4 carder px-4">
+                        <div class="border position-relative cardo-1">
+                            <div class="position-absolute">
+
+                                <svg width="34" height='31' viewBox="0 0 94 88" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0 0V87.6875H93.3639V0H0ZM86.7315 81.4583H6.63241V6.22917H86.7315V81.4583ZM39.8149 71.2042H50.7634V55.545H44.131V64.975H39.8149C34.5293 64.975 30.2234 60.9308 30.2234 55.9667C30.2234 54.2513 30.7336 52.5933 31.7029 51.1558C32.5294 49.9292 33.6722 48.8942 35.0089 48.1658C36.4578 47.38 38.121 46.9583 39.8046 46.9583H55.2735C58.0489 46.9583 60.7835 46.2875 63.2017 45.0225C65.5282 43.7958 67.5281 42.0229 68.9668 39.905C70.63 37.4612 71.4974 34.6342 71.4974 31.7208C71.4974 23.3162 64.2221 16.4833 55.2735 16.4833H44.3249V31.7208H50.9573V22.7125H55.2735C60.559 22.7125 64.8649 26.7567 64.8649 31.7208C64.8649 33.4458 64.3446 35.1133 63.365 36.5508C62.5079 37.8062 61.3345 38.8508 59.9468 39.5792C58.5284 40.3267 56.9061 40.7196 55.2633 40.7196H39.7944C36.9374 40.7196 34.1314 41.4287 31.6723 42.7608C29.4173 43.9875 27.4786 45.7317 26.0807 47.8017C24.4379 50.2358 23.5706 53.0533 23.5706 55.9475C23.5706 64.3521 30.8458 71.185 39.7944 71.185L39.8149 71.2042Z"
+                                        fill="white"></path>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 carder px-4">
+                        <div class="border position-relative cardo-2">
+                            <div class="position-absolute">
+
+                                <svg width="34" height='31' viewBox="0 0 94 88" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0 0V87.6875H93.3639V0H0ZM86.7315 81.4583H6.63241V6.22917H86.7315V81.4583ZM39.8149 71.2042H50.7634V55.545H44.131V64.975H39.8149C34.5293 64.975 30.2234 60.9308 30.2234 55.9667C30.2234 54.2513 30.7336 52.5933 31.7029 51.1558C32.5294 49.9292 33.6722 48.8942 35.0089 48.1658C36.4578 47.38 38.121 46.9583 39.8046 46.9583H55.2735C58.0489 46.9583 60.7835 46.2875 63.2017 45.0225C65.5282 43.7958 67.5281 42.0229 68.9668 39.905C70.63 37.4612 71.4974 34.6342 71.4974 31.7208C71.4974 23.3162 64.2221 16.4833 55.2735 16.4833H44.3249V31.7208H50.9573V22.7125H55.2735C60.559 22.7125 64.8649 26.7567 64.8649 31.7208C64.8649 33.4458 64.3446 35.1133 63.365 36.5508C62.5079 37.8062 61.3345 38.8508 59.9468 39.5792C58.5284 40.3267 56.9061 40.7196 55.2633 40.7196H39.7944C36.9374 40.7196 34.1314 41.4287 31.6723 42.7608C29.4173 43.9875 27.4786 45.7317 26.0807 47.8017C24.4379 50.2358 23.5706 53.0533 23.5706 55.9475C23.5706 64.3521 30.8458 71.185 39.7944 71.185L39.8149 71.2042Z"
+                                        fill="white"></path>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 carder px-4 ">
+                        <div class="border position-relative cardo-3">
+                            <div class="position-absolute">
+
+                                <svg width="34" height='31' viewBox="0 0 94 88" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0 0V87.6875H93.3639V0H0ZM86.7315 81.4583H6.63241V6.22917H86.7315V81.4583ZM39.8149 71.2042H50.7634V55.545H44.131V64.975H39.8149C34.5293 64.975 30.2234 60.9308 30.2234 55.9667C30.2234 54.2513 30.7336 52.5933 31.7029 51.1558C32.5294 49.9292 33.6722 48.8942 35.0089 48.1658C36.4578 47.38 38.121 46.9583 39.8046 46.9583H55.2735C58.0489 46.9583 60.7835 46.2875 63.2017 45.0225C65.5282 43.7958 67.5281 42.0229 68.9668 39.905C70.63 37.4612 71.4974 34.6342 71.4974 31.7208C71.4974 23.3162 64.2221 16.4833 55.2735 16.4833H44.3249V31.7208H50.9573V22.7125H55.2735C60.559 22.7125 64.8649 26.7567 64.8649 31.7208C64.8649 33.4458 64.3446 35.1133 63.365 36.5508C62.5079 37.8062 61.3345 38.8508 59.9468 39.5792C58.5284 40.3267 56.9061 40.7196 55.2633 40.7196H39.7944C36.9374 40.7196 34.1314 41.4287 31.6723 42.7608C29.4173 43.9875 27.4786 45.7317 26.0807 47.8017C24.4379 50.2358 23.5706 53.0533 23.5706 55.9475C23.5706 64.3521 30.8458 71.185 39.7944 71.185L39.8149 71.2042Z"
+                                        fill="white"></path>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer style="background: #EAEAEA;" class="p-5">
+        <div class="col-11 px-md-5 px-1 m-auto">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <div class="d-flex justify-content-center justify-content-lg-start align-items-center">
+                        <svg width="55" viewBox="0 0 94 88" fill="black" xmlns="http://www.w3.org/2000/svg" height="55">
+                            <path
+                                d="M0 0V87.6875H93.3639V0H0ZM86.7315 81.4583H6.63241V6.22917H86.7315V81.4583ZM39.8149 71.2042H50.7634V55.545H44.131V64.975H39.8149C34.5293 64.975 30.2234 60.9308 30.2234 55.9667C30.2234 54.2513 30.7336 52.5933 31.7029 51.1558C32.5294 49.9292 33.6722 48.8942 35.0089 48.1658C36.4578 47.38 38.121 46.9583 39.8046 46.9583H55.2735C58.0489 46.9583 60.7835 46.2875 63.2017 45.0225C65.5282 43.7958 67.5281 42.0229 68.9668 39.905C70.63 37.4612 71.4974 34.6342 71.4974 31.7208C71.4974 23.3162 64.2221 16.4833 55.2735 16.4833H44.3249V31.7208H50.9573V22.7125H55.2735C60.559 22.7125 64.8649 26.7567 64.8649 31.7208C64.8649 33.4458 64.3446 35.1133 63.365 36.5508C62.5079 37.8062 61.3345 38.8508 59.9468 39.5792C58.5284 40.3267 56.9061 40.7196 55.2633 40.7196H39.7944C36.9374 40.7196 34.1314 41.4287 31.6723 42.7608C29.4173 43.9875 27.4786 45.7317 26.0807 47.8017C24.4379 50.2358 23.5706 53.0533 23.5706 55.9475C23.5706 64.3521 30.8458 71.185 39.7944 71.185L39.8149 71.2042Z"
+                                fill="black"></path>
+                        </svg>
+                        <div class="ms-2">
+                            <p class="mb-0 fw-semibold">Digital Gravity</p>
+                            <p class="mb-0">Infra Partners</p>
+                        </div>
+                    </div>
+                    <div class="mt-md-4 pe-md-5">
+                        <p class="small ">Digital Gravity Infra Partners is the trading name of DGP Capital Management
+                            Limited. DGP
+                            Capital
+                            Management Limited is an appointed representative of G10 Capital Limited which is authorised
+                            and
+                            regulated by the Financial Conduct Authority</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-start">
+                    <div class="d-flex flex-column justify-content-between h-100">
+                        <ul class="d-lg-flex list-unstyled justify-content-end">
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-5 text-decoration-none"
+                                    href="#!">Home</a></li>
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-5 text-decoration-none"
+                                    href="#!">Team</a></li>
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-5 text-decoration-none"
+                                    href="#!">Sustainablility</a>
+                            </li>
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-5 text-decoration-none"
+                                    href="#!">Focus</a></li>
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-5 text-decoration-none"
+                                    href="#!">News</a></li>
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-5 text-decoration-none"
+                                    href="#!">Contact</a></li>
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-5 text-decoration-none"
+                                    href="#!">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 38 37"
+                                        fill="none" class="mb-1">
+                                        <path
+                                            d="M8.00427 4.7009C8.00374 5.7556 7.58426 6.76689 6.8381 7.5123C6.09195 8.25771 5.08024 8.67618 4.02554 8.67566C2.97084 8.67513 1.95955 8.25565 1.21414 7.50949C0.468726 6.76333 0.0502544 5.75162 0.0507817 4.69692C0.0513091 3.64223 0.470792 2.63093 1.21695 1.88552C1.96311 1.14011 2.97482 0.721641 4.02951 0.722168C5.08421 0.722696 6.0955 1.14218 6.84091 1.88834C7.58633 2.63449 8.0048 3.6462 8.00427 4.7009ZM8.12357 11.6204H0.170084V36.5149H8.12357V11.6204ZM20.6901 11.6204H12.7764V36.5149H20.6105V23.4513C20.6105 16.1738 30.0951 15.4978 30.0951 23.4513V36.5149H37.9492V20.7471C37.9492 8.47881 23.9112 8.93613 20.6105 14.9609L20.6901 11.6204Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="d-lg-flex list-unstyled justify-content-end">
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-6 text-decoration-none"
+                                    href="#!">Cookie
+                                    policy</a>
+                            </li>
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-6 text-decoration-none"
+                                    href="#!">Website privacy
+                                    policy</a></li>
+                            <li class="mx-2"><a aria-label="link" class="text-black fs-6 text-decoration-none"
+                                    href="#!">Website terms and
+                                    conditions</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
